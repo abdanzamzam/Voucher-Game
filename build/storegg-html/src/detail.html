@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/homepage.css"> <!-- Get navbar & footer style -->
+    <link rel="stylesheet" href="../css/utilities.css">
+    <link rel="stylesheet" href="../css/detail.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Details StoreGG</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white pt-lg-40 pb-lg-40 pt-30 pb-50">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="60"
+                            height="60">
+                            <circle cx="30" cy="30" r="30" fill="#3546AB" />
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <circle cx="30" cy="30" r="30" fill="#00BAFF" />
+                            <path
+                                d="M41.5001 35.0001C52.3001 38.2001 49.6668 48.0001 47.0001 52.5001L71.0001 60.5001L79.5001 -12.9999C63.6667 -13.8333 29.5001 -14.9999 19.5001 -12.9999C7.00007 -10.4999 13.5001 4.00006 12.0001 14.0001C10.5001 24.0001 28.0001 31.0001 41.5001 35.0001Z"
+                                fill="#4D17E2" />
+                            <path
+                                d="M54.495 47.785C54.495 51.285 53.655 54.54 51.975 57.55C50.295 60.56 47.74 63.01 44.31 64.9C40.88 66.79 36.645 67.735 31.605 67.735C26.705 67.735 22.33 66.86 18.48 65.11C14.7 63.29 11.655 60.84 9.345 57.76C7.105 54.61 5.81 51.04 5.46 47.05H15.645C15.855 49.15 16.555 51.215 17.745 53.245C19.005 55.205 20.755 56.85 22.995 58.18C25.305 59.44 28.07 60.07 31.29 60.07C35.49 60.07 38.71 58.95 40.95 56.71C43.19 54.47 44.31 51.6 44.31 48.1C44.31 45.09 43.505 42.64 41.895 40.75C40.355 38.86 38.43 37.39 36.12 36.34C33.81 35.22 30.66 34.03 26.67 32.77C21.98 31.23 18.2 29.795 15.33 28.465C12.53 27.065 10.115 25 8.085 22.27C6.125 19.54 5.145 15.935 5.145 11.455C5.145 7.60499 6.055 4.20999 7.875 1.27C9.765 -1.67 12.425 -3.945 15.855 -5.555C19.355 -7.165 23.45 -7.97 28.14 -7.97C35.42 -7.97 41.195 -6.185 45.465 -2.615C49.735 0.884996 52.22 5.365 52.92 10.825H42.63C42.07 7.885 40.565 5.295 38.115 3.055C35.665 0.814997 32.34 -0.305003 28.14 -0.305003C24.29 -0.305003 21.21 0.709996 18.9 2.73999C16.59 4.69999 15.435 7.5 15.435 11.14C15.435 14.01 16.17 16.355 17.64 18.175C19.18 19.925 21.07 21.325 23.31 22.375C25.55 23.355 28.63 24.475 32.55 25.735C37.31 27.275 41.125 28.745 43.995 30.145C46.935 31.545 49.42 33.68 51.45 36.55C53.48 39.35 54.495 43.095 54.495 47.785Z"
+                                fill="white" />
+                        </g>
+                    </svg>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-lg gap-lg-0 gap-2">
+                        <li class="nav-item my-auto">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <a class="nav-link" href="#">Games</a>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <a class="nav-link" href="#">Rewards</a>
+                        </li>
+
+                        <li class="nav-item my-auto">
+                            <a class="nav-link" href="#">Discover</a>
+                        </li>
+                        <li class="nav-item my-auto me-lg-20">
+                            <a class="nav-link" href="#">Global Rank</a>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <a class="btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill"
+                                href="./src/sign-in.html" role="button">Sign
+                                In</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Detail Content -->
+    <section class="detail pt-lg-60 pb-50">
+        <div class="container-xxl container-fluid">
+            <div class="detail-header pb-50">
+                <h2 class="text-4xl fw-bold color-palette-1 text-start mb-10">Top Up</h2>
+                <p class="text-lg color-palette-1 mb-0">Perkuat akun dan jadilah pemenang</p>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-5 pb-30 pb-md-0 pe-md-25 text-md-start">
+                    <div class="row align-items-center">
+                        <div class="col-md-12 col-4">
+                            <img src="../assets/img/Thumbnail-3.png" width="280" height="380" class="img-fluid" alt="">
+                        </div>
+                        <!-- Mobile: Game title -->
+                        <div class="col-md-12 col-8 d-md-none d-block">
+                            <h2 class="text-xl fw-bold color-palette-1 text-start mb-10">Mobile Legends:<br>
+                                The New Battle 2021</h2>
+                            <p class="text-sm color-palette-2 text-start mb-0">Category: Mobile</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-8 col-md-7 ps-md-25">
+                    <!-- Desktop: Game title -->
+                    <div class="pb-50 d-md-block d-none">
+                        <h2 class="text-4xl fw-bold color-palette-1 text-start mb-10 mt-10">Mobile Legends:<br>
+                            The New Battle 2021</h2>
+                        <p class="text-lg color-palette-2 mb-0">Category: Mobile</p>
+                    </div>
+                    <hr>
+                    <form action="./checkout.html" method="POST">
+                        <div class="pt-md-50 pt-30">
+                            <div class="">
+                                <label for="ID" class="form-label text-lg fw-medium color-palette-1 mb-10">Verify
+                                    ID</label>
+                                <input type="text" class="form-control rounded-pill text-lg" id="ID" name="ID"
+                                    aria-describedby="verifyID" placeholder="Enter your ID">
+                            </div>
+                        </div>
+                        <div class="pt-md-50 pb-md-50 pt-30 pb-20">
+                            <p class="text-lg fw-medium color-palette-1 mb-md-10 mb-0">Nominal Top Up</p>
+                            <div class="row justify-content-between">
+                                <label class="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
+                                    for="topup1">
+                                    <input class="d-none" type="radio" id="topup1" name="topup" value="topup1">
+                                    <div class="detail-card">
+                                        <div class="d-flex justify-content-between">
+                                            <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">125</span>
+                                                Gold
+                                            </p>
+                                            <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
+                                                <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
+                                    </div>
+                                </label>
+                                <label class="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
+                                    for="topup2">
+                                    <input class="d-none" type="radio" id="topup2" name="topup" value="topup2">
+                                    <div class="detail-card">
+                                        <div class="d-flex justify-content-between">
+                                            <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">225</span>
+                                                Gold
+                                            </p>
+                                            <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
+                                                <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
+                                    </div>
+                                </label>
+                                <label class="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
+                                    for="topup3">
+                                    <input class="d-none" type="radio" id="topup3" name="topup" value="topup3">
+                                    <div class="detail-card">
+                                        <div class="d-flex justify-content-between">
+                                            <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">350</span>
+                                                Gold
+                                            </p>
+                                            <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
+                                                <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
+                                    </div>
+                                </label>
+                                <label class="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
+                                    for="topup4">
+                                    <input class="d-none" type="radio" id="topup4" name="topup" value="topup4">
+                                    <div class="detail-card">
+                                        <div class="d-flex justify-content-between">
+                                            <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">550</span>
+                                                Gold
+                                            </p>
+                                            <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
+                                                <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
+                                    </div>
+                                </label>
+                                <label class="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
+                                    for="topup5">
+                                    <input class="d-none" type="radio" id="topup5" name="topup" value="topup5">
+                                    <div class="detail-card">
+                                        <div class="d-flex justify-content-between">
+                                            <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">750</span>
+                                                Gold
+                                            </p>
+                                            <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
+                                                <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
+                                    </div>
+                                </label>
+                                <div class="col-lg-4 col-sm-6">
+                                    <!-- Blank -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pb-md-50 pb-20">
+                            <p class="text-lg fw-medium color-palette-1 mb-md-10 mb-0">Payment Method</p>
+                            <fieldset id="paymentMethod">
+                                <div class="row justify-content-between">
+                                    <label class="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
+                                        for="transfer">
+                                        <input class="d-none" type="radio" id="transfer" name="paymentMethod"
+                                            value="transfer">
+                                        <div class="detail-card">
+                                            <div class="d-flex justify-content-between">
+                                                <p class="text-3xl color-palette-1 fw-medium m-0">Transfer</p>
+                                                <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
+                                                    <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
+                                                        stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                            <p class="text-lg color-palette-1 m-0">Worldwide Available</p>
+                                        </div>
+                                    </label>
+                                    <label class="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
+                                        for="visa">
+                                        <input class="d-none" type="radio" id="visa" name="paymentMethod" value="visa">
+                                        <div class="detail-card">
+                                            <div class="d-flex justify-content-between">
+                                                <p class="text-3xl color-palette-1 fw-medium m-0">VISA</p>
+                                                <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
+                                                    <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
+                                                        stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                            <p class="text-lg color-palette-1 m-0">Credit Card</p>
+                                        </div>
+                                    </label>
+                                    <div class="col-lg-4 col-sm-6">
+                                        <!-- Blank -->
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="pb-50">
+                            <label for="bankAccount" class="form-label text-lg fw-medium color-palette-1 mb-10">Bank
+                                Account
+                                Name</label>
+                            <input type="text" class="form-control rounded-pill text-lg" id="bankAccount"
+                                name="bankAccount" aria-describedby="bankAccount"
+                                placeholder="Enter your Bank Account Name">
+                        </div>
+                        <div class="d-sm-block d-flex flex-column w-100">
+                            <a href="./checkout.html" type="submit"
+                                class="btn btn-submit rounded-pill fw-medium text-white border-0 text-lg">Continue</a>
+                            <!-- <button type="submit"
+                                class="btn btn-submit rounded-pill fw-medium text-white border-0 text-lg">Continue</button> -->
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer pt-50">
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 text-lg-start text-center">
+                        <a href="" class="mb-30">
+                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="60"
+                                    height="60">
+                                    <circle cx="30" cy="30" r="30" fill="#3546AB" />
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <circle cx="30" cy="30" r="30" fill="#00BAFF" />
+                                    <path
+                                        d="M41.5001 35.0001C52.3001 38.2001 49.6668 48.0001 47.0001 52.5001L71.0001 60.5001L79.5001 -12.9999C63.6667 -13.8333 29.5001 -14.9999 19.5001 -12.9999C7.00007 -10.4999 13.5001 4.00006 12.0001 14.0001C10.5001 24.0001 28.0001 31.0001 41.5001 35.0001Z"
+                                        fill="#4D17E2" />
+                                    <path
+                                        d="M54.495 47.785C54.495 51.285 53.655 54.54 51.975 57.55C50.295 60.56 47.74 63.01 44.31 64.9C40.88 66.79 36.645 67.735 31.605 67.735C26.705 67.735 22.33 66.86 18.48 65.11C14.7 63.29 11.655 60.84 9.345 57.76C7.105 54.61 5.81 51.04 5.46 47.05H15.645C15.855 49.15 16.555 51.215 17.745 53.245C19.005 55.205 20.755 56.85 22.995 58.18C25.305 59.44 28.07 60.07 31.29 60.07C35.49 60.07 38.71 58.95 40.95 56.71C43.19 54.47 44.31 51.6 44.31 48.1C44.31 45.09 43.505 42.64 41.895 40.75C40.355 38.86 38.43 37.39 36.12 36.34C33.81 35.22 30.66 34.03 26.67 32.77C21.98 31.23 18.2 29.795 15.33 28.465C12.53 27.065 10.115 25 8.085 22.27C6.125 19.54 5.145 15.935 5.145 11.455C5.145 7.60499 6.055 4.20999 7.875 1.27C9.765 -1.67 12.425 -3.945 15.855 -5.555C19.355 -7.165 23.45 -7.97 28.14 -7.97C35.42 -7.97 41.195 -6.185 45.465 -2.615C49.735 0.884996 52.22 5.365 52.92 10.825H42.63C42.07 7.885 40.565 5.295 38.115 3.055C35.665 0.814997 32.34 -0.305003 28.14 -0.305003C24.29 -0.305003 21.21 0.709996 18.9 2.73999C16.59 4.69999 15.435 7.5 15.435 11.14C15.435 14.01 16.17 16.355 17.64 18.175C19.18 19.925 21.07 21.325 23.31 22.375C25.55 23.355 28.63 24.475 32.55 25.735C37.31 27.275 41.125 28.745 43.995 30.145C46.935 31.545 49.42 33.68 51.45 36.55C53.48 39.35 54.495 43.095 54.495 47.785Z"
+                                        fill="white" />
+                                </g>
+                            </svg>
+                        </a>
+                        <p class="mt-30 text-lg color-palette-1 mb-30">StoreGG membantu gamers<br> untuk menjadi
+                            pemenang sejati</p>
+                        <p class="mt-30 text-lg color-palette-1 mb-30">Copyright 2021. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-8 mt-lg-0 mt-20">
+                        <div class="row gap-sm-0">
+                            <div class="col-md-4 col-6 mb-lg-0 mb-25">
+                                <p class="text-lg fw-semibold color-palette-1 mb-12">Company</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">About Us</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Press
+                                            Release</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Terms of Use</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Privacy &
+                                            Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 col-6 mb-lg-0 mb-25">
+                                <p class="text-lg fw-semibold color-palette-1 mb-12">Support</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Refund
+                                            Policy</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Unlock
+                                            Rewards</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Live
+                                            Chatting</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 col-12 mt-lg-0 mt-md-0 mt-25">
+                                <p class="text-lg fw-semibold color-palette-1 mb-12">Connect</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-6">
+                                        <a href="mailto: hi@store.gg"
+                                            class="text-lg color-palette-1 text-decoration-none">hi@store.gg</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="mailto: team@store.gg"
+                                            class="text-lg color-palette-1 text-decoration-none">team@store.gg</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="http://maps.google.com/?q=Pasific 12,
+                                        Jakarta Selatan" class="text-lg color-palette-1 text-decoration-none">Pasific
+                                            12,
+                                            Jakarta Selatan</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="tel: 02111229090"
+                                            class="text-lg color-palette-1 text-decoration-none">021 - 1122 -
+                                            9090</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+
+
+</body>
+
+</html>
